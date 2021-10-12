@@ -17,6 +17,7 @@ Run the code sniffer container using the following command.
 -v ./src:/tmp/src php-code-sniffer:latest
 >>>>>>> 702a99ac6ebc603ef89bb891c984aa799e5ec15b
 ```
+
 ## Re-run container
 To re-run the container use the following command.
 ```
