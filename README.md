@@ -10,7 +10,8 @@ To build the container use the following command.
 ## Initial run of container
 Run the code sniffer container using the following command.
 ```
-[user@host container-php-codesniffer]$ podman run --name 'php-code-sniffer-instance' -v ./src:/tmp/src php-code-sniffer:latest
+[user@host container-php-codesniffer]$ podman run --name 'php-code-sniffer-instance' \
+-v ./src:/tmp/src php-code-sniffer:latest
 ```
 ## Re-run container
 To re-run the container use the following command.
